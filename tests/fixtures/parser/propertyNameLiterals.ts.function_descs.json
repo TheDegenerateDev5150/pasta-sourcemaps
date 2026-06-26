@@ -1,0 +1,23 @@
+[
+    {
+        "name": "<top-level>",
+        "startLine": 0,
+        "startColumn": 0,
+        "endLine": 13,
+        "endColumn": 0
+    },
+    {
+        "name": "obj.1n.f",
+        "startLine": 2,
+        "startColumn": 10,
+        "endLine": 4,
+        "endColumn": 9
+    },
+    {
+        "name": "C.prototype.#f",
+        "startLine": 8,
+        "startColumn": 9,
+        "endLine": 11,
+        "endColumn": 5
+    }
+]
