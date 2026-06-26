@@ -23,21 +23,21 @@
     "prepublishOnly": "npm run lint && npm run test"
   },
   "devDependencies": {
-    "@types/node": "^8.9.5",
+    "@types/node": "^16.18.126",
     "@types/tape": "^4.13.0",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
     "cross-env": "^6.0.3",
-    "eslint": "^8.47.0",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.2",
     "tape": "^4.13.2",
-    "ts-node": "^8.10.1",
-    "typedoc": "^0.24.8"
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.28.19"
   },
   "dependencies": {
-    "typescript": "^5.1.6",
+    "typescript": "^6.0.0",
     "vlq": "^1.0.0"
   },
   "prettier": {

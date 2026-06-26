@@ -3,12 +3,14 @@
     "target": "es2016",
     "declaration": true,
     "module": "commonjs",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "dist",
+    "rootDir": ".",
     "strict": true,
     "skipLibCheck": true,
+    "types": ["node"],
     "newLine": "LF"
   },
   "include": [
