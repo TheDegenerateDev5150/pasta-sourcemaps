@@ -411,8 +411,10 @@ function getPropertyName(name: ts.PropertyName): string {
     switch (name.kind) {
         case ts.SyntaxKind.Identifier:
         case ts.SyntaxKind.StringLiteral:
+        case ts.SyntaxKind.NoSubstitutionTemplateLiteral:
         case ts.SyntaxKind.NumericLiteral:
         case ts.SyntaxKind.PrivateIdentifier:
+        case ts.SyntaxKind.BigIntLiteral:
             return name.text;
         case ts.SyntaxKind.ComputedPropertyName:
             return computedName(name.expression);

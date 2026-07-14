@@ -40,6 +40,7 @@ test("parser module tests", (t) => {
         ["lhsVariationsArrow.js", "ECMAScript"],
         ["lhsVariationsLocalName.js", "ECMAScript"],
         ["classVariations.ts", "TypeScript"],
+        ["propertyNameLiterals.ts", "TypeScript"],
     ];
 
     t.plan(CASES.length);

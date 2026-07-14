@@ -181,6 +181,7 @@ decoder.decode("barilla.js", 0, 25); // penne
 ## Development
 
 - Clone this repository
+- Use Node.js 18 or newer for development tooling
 - Install dependencies:
   - `npm install`
 - Write code, add tests!
